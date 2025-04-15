@@ -1,0 +1,12 @@
+#333333 - Dark Gray
+#DDDDDD - Light Gray
+#FFFFFF - White
+#BCC6CC - Silver
+#DC0000 - Ferrari Red
+#FF8700 - McLaren Orange
+#1E41FF - Red Bull Blue
+#0090FF - Alpine Blue
+#FFC300 - Vibrant McLaren Yellow
+#FFD700 - Super Vibrant Yellow
+#FF2400 - Vibrant Red
+#FF4500 - Red-Orange F1

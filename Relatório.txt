@@ -1,0 +1,29 @@
+! Relatório do Projeto de Fórmula 1 !
+
+3.1. Relatório Coletivo
+O relatório coletivo abrange a análise completa dos dados consolidados da temporada de Fórmula 1 de 1950 a 2020. A equipe revisou meticulosamente cada aspecto, proporcionando uma visão holística das tendências e performances ao longo dos anos.
+
+3.2. Avaliação de reação da parte interessada
+A avaliação inclui as reações e feedbacks dos stakeholders sobre o dashboard finalizado. Esta seção reflete as opiniões coletadas e sugestões para futuras melhorias.
+
+3.3. Relato de Experiência Individual
+Cada membro da equipe compartilhou suas experiências pessoais e aprendizados adquiridos durante o projeto. Estes relatos destacam as diferentes perspectivas e contribuições individuais.
+
+3.4. CONTEXTUALIZAÇÃO
+O projeto foi iniciado com a seleção de um conjunto de dados do Kaggle, cobrindo a história da Fórmula 1 desde 1950 até 2020. Este conjunto é composto por 14 tabelas diferentes, que foram mescladas para formar o arquivo `formula1_merged_data.csv`.
+
+3.5. METODOLOGIA
+A metodologia adotada envolveu o merge cuidadoso das 14 tabelas, análise exploratória para identificar e corrigir possíveis inconsistências, e a utilização de técnicas avançadas de visualização de dados no Power BI.
+
+3.6. RESULTADOS E DISCUSSÃO:
+Os resultados são apresentados através de visualizações interativas no Power BI, discutindo os principais insights obtidos das análises, como padrões de desempenho dos pilotos e equipes ao longo das décadas.
+
+3.7. REFLEXÃO APROFUNDADA
+Esta seção reflete sobre as técnicas utilizadas, os desafios enfrentados e as lições aprendidas durante o projeto, proporcionando uma compreensão mais profunda do impacto do projeto.
+
+3.8. CONSIDERAÇÕES FINAIS
+As considerações finais resumem o impacto do projeto, destacando sua relevância e potencial para futuras pesquisas e aplicações práticas.
+
+- Dados Utilizados:
+
+Base de dados da Fórmula 1 obtida de: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
