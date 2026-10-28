@@ -1,67 +1,31 @@
-# 🏎️ F1 BI Dashboard
+# 🏎️ Formula 1 Analytics | Power BI, 70+ years of racing data
 
-Este projeto utiliza o **Power BI** para criar um dashboard interativo com dados históricos da Fórmula 1, abrangendo o período de 1950 a 2020. A análise inclui o desempenho de pilotos, equipes e outras métricas-chave do campeonato, oferecendo uma visão abrangente do impacto e evolução da Fórmula 1 ao longo das décadas.
+Interactive Power BI dashboard on Formula 1 history. The Kaggle World Championship dataset (14 tables) was merged into a single flat file of race results, covering seasons from 1950 to 2024, and modeled in Power BI to explore driver, team and circuit performance across the decades.
 
----
+## Stack
+`Power BI` `Power Query` `CSV` `Kaggle`
 
-## 📂 Estrutura de Pastas
+## What it does
+- Consolidates 14 source tables (races, circuits, drivers, constructors, results, standings) into `formula1_merged_data.csv`, about 26.5k rows.
+- Analyzes driver and team performance over time: wins, points, grid vs finishing position, championship standings.
+- Shows race-level details such as circuit, country, laps and fastest lap time and speed.
+- Uses a custom F1-inspired theme (team colors in `Design/F1_Palette.txt`), icons and background layouts in `Design/`.
+- Documents context, methodology and conclusions in `Report.txt`.
 
-F1-BI / ├── Design/ # Design e assets visuais (ex.: ícones e paletas) 
-        │ ├── Background/ # Imagens de fundo 
-        │ ├── Icons/ # Ícones utilizados no dashboard 
-        │ └── Paleta_F1/ # Documento com a paleta de cores do F1 
-        ├── F1.pbix # Arquivo do Power BI com o dashboard interativo 
-        ├── formula1_merged_data.csv # Dados consolidados da Fórmula 1 
-        └── README.txt # Relatório do projeto com detalhes da análise
-
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Power BI** (para criação do dashboard interativo)
-- **Python / Pandas** (para processamento de dados, caso necessário)
-- **Excel / CSV** (para armazenar os dados consolidados)
-- **Kaggle** (fonte de dados)
-
----
-
-## 📊 Descrição dos Dados
-
-O conjunto de dados abrange a história completa da Fórmula 1 de 1950 a 2020 e foi obtido de: [Fórmula 1 World Championship Data (Kaggle)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
-
-Os dados contêm informações detalhadas sobre:
-
-- Pilotos e equipes
-- Corridas e resultados
-- Estatísticas de performance de cada temporada
-- Detalhes sobre o desempenho de cada participante nas corridas ao longo dos anos
-
----
-
-## 📝 Relatório do Projeto
-
-O relatório detalha a metodologia utilizada, os resultados obtidos e as discussões sobre as principais descobertas, como padrões de desempenho de pilotos e equipes ao longo das décadas.
-
-**Resumo dos tópicos do relatório**:
-- **Metodologia**: Como os dados foram coletados, tratados e analisados.
-- **Resultados**: Insights extraídos a partir da análise exploratória de dados e visualizações no Power BI.
-- **Reflexão Aprofundada**: Lições aprendidas e desafios enfrentados.
-- **Considerações Finais**: Impacto e potencial de aplicação futura dos dados analisados.
-
----
-
-## 🚀 Como Executar
-
-1. Clone o repositório:
+## How to open / run
+1. Clone the repo:
    ```bash
-   git clone https://github.com/seu-usuario/f1-bi-dashboard.git
+   git clone https://github.com/lucas-wall/Formula1-BI-Dashboard.git
+   ```
+2. Open `F1.pbix` in Power BI Desktop.
+3. If prompted, point the data source to `formula1_merged_data.csv` in the repo root and click Refresh.
+4. To explore the raw data, open `formula1_merged_data.csv` in any spreadsheet tool or load it with pandas.
 
-2. Abra o arquivo F1.pbix no Power BI para visualizar o dashboard interativo com as análises de dados.
+## Repo layout
+- `F1.pbix` - the Power BI report
+- `formula1_merged_data.csv` - merged dataset
+- `Report.txt` - project report
+- `Design/` - background (`Background/`), icons (`Icons/`) and color palette (`F1_Palette.txt`)
 
-3. Caso deseje modificar ou analisar os dados por conta própria, abra o arquivo formula1_merged_data.csv no seu editor de planilhas ou utilize ferramentas como Pandas para processamento de dados.
-
-## 📸 Exemplos de Visualizações
-- 🏁 Desempenho dos Pilotos ao Longo das Décadas
-
-- 🏆 Classificação dos Pilotos por Número de Vitórias
+## Data source
+[Formula 1 World Championship (1950 - 2020), Kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)

@@ -1,0 +1,29 @@
+! Formula 1 Project Report !
+
+3.1. Team Report
+The team report covers the full analysis of the consolidated Formula 1 data from 1950 to 2020. The team reviewed every aspect carefully, providing a holistic view of trends and performance over the years.
+
+3.2. Stakeholder Feedback Assessment
+This assessment covers stakeholder reactions and feedback on the finished dashboard. This section reflects the opinions collected and suggestions for future improvements.
+
+3.3. Individual Experience Reports
+Each team member shared their personal experience and the lessons learned during the project. These reports highlight the different perspectives and individual contributions.
+
+3.4. CONTEXT
+The project started with the selection of a Kaggle dataset covering Formula 1 history from 1950 to 2020. The dataset is made up of 14 different tables, which were merged to build the file `formula1_merged_data.csv`.
+
+3.5. METHODOLOGY
+The methodology involved carefully merging the 14 tables, running exploratory analysis to identify and fix inconsistencies, and applying data visualization techniques in Power BI.
+
+3.6. RESULTS AND DISCUSSION:
+The results are presented through interactive Power BI visuals, discussing the main insights from the analysis, such as driver and team performance patterns across the decades.
+
+3.7. IN-DEPTH REFLECTION
+This section reflects on the techniques used, the challenges faced and the lessons learned during the project, giving a deeper understanding of the project's impact.
+
+3.8. FINAL CONSIDERATIONS
+The final considerations summarize the project's impact, highlighting its relevance and potential for future research and practical applications.
+
+- Data Used:
+
+Formula 1 dataset obtained from: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
